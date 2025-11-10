@@ -1,0 +1,21 @@
+{
+  "name": "fatima-md-mini",
+  "description": "WhatsApp Multi-Device Bot",
+  "repository": "https://github.com/policeduafatima/FATIMA-MD-Mini",
+  "logo": "https://raw.githubusercontent.com/policeduafatima/FATIMA-MD-Mini/main/assets/logo.png",
+  "keywords": ["whatsapp", "bot", "arslan-md", "baileys"],
+  "env": {
+    "GITHUB_TOKEN": {
+      "description": "Your GitHub Personal Access Token (PAT) with repo permissions",
+      "required": true
+    },
+    "GITHUB_REPO_OWNER": {
+      "description": "GitHub username or organization that owns the repository",
+      "required": true
+    },
+    "GITHUB_REPO_NAME": {
+      "description": "The name of the GitHub repository",
+      "required": true
+    }
+  }
+}
